@@ -16,7 +16,7 @@ public class StartActivity extends ActionBarActivity {
     }
 
     public void optionsOnClick(View v){
-
+        //Add stuff here
     }
 
     public void scoreOnClick(View v){
