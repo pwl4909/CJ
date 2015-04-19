@@ -16,12 +16,17 @@ public class StartActivity extends ActionBarActivity {
     }
 
     public void optionsOnClick(View v){
-        //Add stuff here
+        Intent intent = new Intent(this, OptionsActivity.class);
+        startActivity(intent);
     }
 
+    /*
     public void scoreOnClick(View v){
-
+        //Change MainActivity to Score activity.java file name when created
+        Intent intent = new Intent(this, ScoreActivity.class);
+        startActivity(intent);
     }
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

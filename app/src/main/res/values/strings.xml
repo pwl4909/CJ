@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CJ</string>
+    <string name="app_name">Circle Jerk</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_start">Circle Jerk</string>
+    <string name="title_activity_options">Circle Jerk</string>
+
+    <integer-array name="timeLimit">
+        <item name="10">10</item>
+        <item name="15">15</item>
+    </integer-array>
+
+    <string-array name="Level">
+        <item name="easy">Easy</item>
+        <item name="medium">Medium</item>
+        <item name="hard">Hard</item>
+    </string-array>
+    <string-array name="LevelValues">
+        <item name="easy">easy</item>
+        <item name="medium">medium</item>
+        <item name="hard">hard</item>
+    </string-array>
+<!-- Feature not yet Supported
+    <string-array name="MultiplayerCharacter">
+        <item name="d1">Player 1</item>
+        <item name="d2">Player 2</item>
+        <item name="d3">Player 3</item>
+    </string-array>
+
+    <string-array name="MultiplayerCharacterValues">
+        <item name="d1">1</item>
+        <item name="d1">2</item>
+        <item name="d1">3</item>
+    </string-array>
+-->
+    <string name="title_activity_about">Circle Jerk</string>
+    <string name="title_activity_score">ScoreActivity</string>
+
 
 </resources>
